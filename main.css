@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+.Todo-list{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list > li {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+.add-btn{
+    background-color: rgb(9, 185, 233);
+    border: none;
+}
+.label{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+#taskInput{
+    width: 100%;
+}
